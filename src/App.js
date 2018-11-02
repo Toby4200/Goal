@@ -7,21 +7,17 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App" style={
-        {
-          background: 'url("./img/correct-bg.jpeg")'
-        }
-      }>
+      <div className="App">
         <header className="App-header">
-          <p>
+          <h2>
             Добро пожаловать в Goal!
-          </p>
+          </h2>
           <div>
-              <Button color="" className="main__button_red">
+              <Button variant="contained" color="primary" className="main__button main__button_red">
                 Sign up
               </Button>
 
-              <Button color="secondary" className="main__button_blue">
+              <Button variant="contained" color="secondary" className="main__button main__button_blue">
                 Sign in
               </Button>
           </div>

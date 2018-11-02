@@ -4,7 +4,10 @@ body {
 
 .App {
   text-align: center;
-  /* background-image: url('./img/correct-bg.jpeg'); */
+  background-image: url('./img/correct-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .App-logo {
@@ -13,7 +16,6 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,13 +40,8 @@ body {
 
 /* buttons */
 
-.main__button_red {
-  background-color: rgb(225, 0, 80) !important;
+.main__button {
   margin-right: 15px !important;
-}
-
-.main__button_blue {
-  background-color: #2196f3 !important;
 }
 
 /* .main {
