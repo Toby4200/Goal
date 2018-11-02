@@ -1,5 +1,10 @@
+body {
+  font-family: 'Roboto', 'sans-serif';
+}
+
 .App {
   text-align: center;
+  /* background-image: url('./img/correct-bg.jpeg'); */
 }
 
 .App-logo {
@@ -30,3 +35,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* buttons */
+
+.main__button_red {
+  background-color: rgb(225, 0, 80) !important;
+  margin-right: 15px !important;
+}
+
+.main__button_blue {
+  background-color: #2196f3 !important;
+}
+
+/* .main {
+  &__button {
+    &_red {
+      background-color: rgb(225, 0, 80);
+    }
+
+    &_blue {
+      background-color: #2196f3;
+    }
+  }
+} */
